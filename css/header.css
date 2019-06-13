@@ -1,28 +1,25 @@
-.wrapper {
-  display: grid;
-}
 .header {
-  padding: 20px 40px;
+  padding: 10px 40px;
   display: grid;
   grid-template-columns: 254px auto 10%;
-  position: relative;
 }
 .header .logo img {
   width: 254px;
   height: 45px;
-  position: absolute;
 }
 .header .nav ul,
 .header .lang {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  font-weight: bold;
 }
 .header .nav li {
   padding: 0 13px;
+  font-size: 15px;
 }
 .header .lang {
-  font-size: 13px;
+  font-size: 10px;
 }
 .header .lang > div:first-child {
   color: #38b068;
