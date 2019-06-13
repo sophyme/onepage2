@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Dosis:800&display=swap");
-@import "/css/header.css";
+@import "../css/header.css";
 
+body {
+  margin: 0;
+  padding: 0;
+}
 a {
   text-decoration: none;
   color: inherit;
