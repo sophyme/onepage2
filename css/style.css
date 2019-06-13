@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Dosis:800&display=swap");
 @import "../css/header.css";
+@import "../css/hero.css";
 
 body {
   margin: 0;
@@ -12,4 +13,8 @@ a {
 }
 li {
   list-style: none;
+}
+.wrapper {
+  display: grid;
+  grid-template-rows: auto 410px auto auto auto;
 }
