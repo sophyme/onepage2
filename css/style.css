@@ -4,6 +4,9 @@
 @import "../css/main.css";
 @import "../css/article.css";
 
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   padding: 0;
