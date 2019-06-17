@@ -24,4 +24,5 @@ li {
 .wrapper {
   display: grid;
   grid-template-rows: auto 65vh auto auto auto;
+  justify-items: center;
 }

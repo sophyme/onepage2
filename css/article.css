@@ -1,20 +1,15 @@
 .article {
   display: grid;
   grid-gap: 22px;
-  grid-template-columns: repeat(3, 300px);
-  grid-template-rows: repeat(3, 300px);
-}
-.col {
-  grid-column: span 2;
-}
-.row {
-  grid-row: span 2;
+  grid-template-areas:
+    "a b"
+    "c b"
+    "d e";
 }
 .content {
   border: 1px solid #e1e1e1;
   border-radius: 8px;
   display: flex;
-  justify-content: space-between;
 }
 .img,
 .text {
@@ -25,9 +20,6 @@
   width: 100%;
   height: 100%;
   border-radius: 8px;
-}
-.img > img {
-  width: 100%;
 }
 .img:hover img {
   width: 100%;
