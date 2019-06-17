@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding|Dosis:800&display=swap");
 @import "../css/header.css";
 @import "../css/hero.css";
+@import "../css/main.css";
 
 body {
   margin: 0;
@@ -18,5 +19,5 @@ li {
 }
 .wrapper {
   display: grid;
-  grid-template-rows: auto 410px auto auto auto;
+  grid-template-rows: auto 60vh auto auto auto;
 }

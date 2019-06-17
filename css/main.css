@@ -1,0 +1,28 @@
+.main, .article {
+    padding: 0 100px;
+}
+.main-nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+    padding: 0;
+}
+.main-nav li {
+    display: flex;
+    justify-content: center;
+}
+.main-nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    height: 85px;
+    background: #1b8826;
+    border-radius: 42.5px;
+    color: #ffff;
+    font-size: 23px;
+}
+.main-nav i {
+    padding-right: 10px;
+}
