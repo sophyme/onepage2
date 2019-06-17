@@ -19,12 +19,16 @@
   justify-content: center;
   width: 100%;
   height: 80px;
-  background: #1b8826;
   border-radius: 40px;
-  color: #ffff;
+  background: #f4f4f4;
+  color: #aaaaaa;
   font-size: 18px;
   padding: 0 60px;
   margin: 0 10px;
+}
+.main-nav a:hover {
+  background: #1b8826;
+  color: #f4f4f4;
 }
 .main-nav i {
   padding-right: 10px;
