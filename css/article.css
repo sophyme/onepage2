@@ -1,0 +1,17 @@
+.article {
+  display: grid;
+  grid-gap: 22px;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(3, 300px);
+}
+.col-2 {
+  grid-column: span 2 / auto;
+}
+.row-2 {
+  grid-row: span 2 / auto;
+}
+.content {
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  display: flex;
+}
