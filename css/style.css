@@ -3,9 +3,13 @@
 @import "../css/hero.css";
 @import "../css/main.css";
 @import "../css/article.css";
+@import "../css/footer.css";
 
 * {
   box-sizing: border-box;
+}
+html {
+  background: #f4f4f4;
 }
 body {
   margin: 0;

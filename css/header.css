@@ -1,7 +1,7 @@
 .header {
   padding: 10px 40px;
   display: grid;
-  grid-template-columns: 254px auto 10%;
+  grid-template-columns: 254px 1fr 10%;
 }
 .header .logo img {
   width: 254px;
